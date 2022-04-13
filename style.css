@@ -5,6 +5,7 @@
 	border-width: 1px;
 	border-color: red;
 	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
 }
 
 body{
@@ -15,6 +16,9 @@ body{
 	text-align: center;
 }
 
+.card{
+	width: 50%;
+}
 .card-main{
 	display: flex;
 	flex-direction: column;
