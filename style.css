@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@100;700&family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
+
 *{
 	border-style: solid;
 	border-width: 1px;
 	border-color: red;
+	font-family: 'Kumbh Sans', sans-serif;
 }
 
 body{
@@ -10,4 +13,15 @@ body{
 	flex-direction: column;
 	justify-content: center;	
 	text-align: center;
+}
+
+.card-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.img-profile{
+	max-width: 10%;
 }
