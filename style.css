@@ -28,6 +28,10 @@ body{
 	justify-content: center;
 	align-items: center;
 	background-color: var(--Dark-cyan);
+}
 
-	
+.card{
+	width: 350px;
+	background-color: white;
+	border-radius: 20px;
 }
