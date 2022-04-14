@@ -15,10 +15,22 @@ body{
 	justify-content: center;	
 	text-align: center;
 	align-items: center;
+	background-color: hsl(185, 75%, 39%);
 }
 
 .card{
-	width: 50%;
+	max-width: 50%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.card-top{
+	background-color:hsl(185, 75%, 39%); 
+}
+.card-top img{
+	max-width: 100px;
+	max-height: 100px;
+
 }
 .card-main{
 	display: flex;
@@ -29,4 +41,5 @@ body{
 
 .img-profile{
 	max-width: 10%;
+	border-radius: 50%;
 }
