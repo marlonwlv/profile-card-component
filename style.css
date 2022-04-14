@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@100;700&family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
 
+.root{
+/*Primary*/
+
+	--Dark cyan: hsl(185, 75%, 39%);
+	--Very dark desaturated blue: hsl(229, 23%, 23%);
+	--Dark grayish blue: hsl(227, 10%, 46%);
+
+	/* Neutral*/
+
+	--Dark gray: hsl(0, 0%, 59%);
+}
+
 *{
 	border-style: solid;
 	border-width: 1px;
