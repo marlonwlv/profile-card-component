@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@100;700&family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
 
-.root{
+:root{
 /*Primary*/
 
-	--Dark cyan: hsl(185, 75%, 39%);
-	--Very dark desaturated blue: hsl(229, 23%, 23%);
-	--Dark grayish blue: hsl(227, 10%, 46%);
+	--Dark-cyan: hsl(185, 75%, 39%);
+	--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+	--Dark-grayish-blue: hsl(227, 10%, 46%);
 
 	/* Neutral*/
 
-	--Dark gray: hsl(0, 0%, 59%);
+	--Dark-gray: hsl(0, 0%, 59%);
 }
 
 *{
@@ -22,36 +22,6 @@
 
 body{
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;	
-	text-align: center;
-	align-items: center;
-	background-color: hsl(185, 75%, 39%);
-}
-
-.card{
-	max-width: 50%;
-	background-color: white;
-	border-radius: 15px;
-}
-
-.card-top{
-	background-color:hsl(185, 75%, 39%); 
-}
-.card-top img{
-	max-width: 100px;
-	max-height: 100px;
-
-}
-.card-main{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-
-}
-
-.img-profile{
-	max-width: 10%;
-	border-radius: 50%;
+	
+	
 }
