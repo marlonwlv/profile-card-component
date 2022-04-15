@@ -34,4 +34,12 @@ body{
 	width: 350px;
 	background-color: white;
 	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card-top{
+	background-image: url(images/bg-pattern-card.svg);
+	background-size: cover;
+	height: 150px;
+
 }
